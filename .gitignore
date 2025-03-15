@@ -1,0 +1,46 @@
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+env/
+*.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and local database
+*.log
+*.sqlite3
+*.db
+
+# VS Code settings
+.vscode/
+
+# Python dependency files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# MacOS and Linux system files
+.DS_Store
+*.swp
+*.swo
+
+# Compiled C extensions
+*.so
+
+# Test coverage reports
+.coverage
+htmlcov/
+
+# PyInstaller build files
+dist/
+build/
+*.spec
+
+# Environment variables and secrets
+.env
+*.env
