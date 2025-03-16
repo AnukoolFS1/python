@@ -37,18 +37,29 @@
 
 # Task 4: Multiplication Table
 
-input_success = False
-number = 0 
+# input_success = False
+# number = 0 
 
-while not(input_success):
-    try:
-        number = int(input("Enter a number for its table upto 10: "))
-        input_success = True
-    except ValueError:
-        print("Oop! you entered a wrong value please enter a number")
+# while not(input_success):
+#     try:
+#         number = int(input("Enter a number for its table upto 10: "))
+#         input_success = True
+#     except ValueError:
+#         print("Oops! you entered a wrong value. Please enter a number")
 
-table = 1
+# table = 1
 
-while table <= 10:
-    print(f"{number} x {table} = {number * table}")
-    table += 1
+# while table <= 10:
+#     print(f"{number} x {table} = {number * table}")
+#     table += 1
+
+# Task 5: Reverse a string
+# string = input("Write a word: ")
+
+# reveredString = ""
+
+# for x in string:
+#     reveredString = x + reveredString
+
+# print(reveredString)
+
