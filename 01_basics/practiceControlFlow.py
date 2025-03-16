@@ -23,12 +23,15 @@ import random
 runLoop = True
 
 while runLoop:
-    user_input = int(input("Guess a number: "))
-    random_number = random.randint(1,10)
+    try:
+        user_input = int(input("Guess a number: "))
+        random_number = random.randint(1,10)
 
-    if user_input == random_number:
-        print("Congrats your guess was correct")
-        runLoop = False
-    else:
-        print("Incorrect guess, please try again")
-        print(random_number)
+        if user_input == random_number:
+            print("Congrats your guess was correct")
+            runLoop = False
+        else:
+            print("Incorrect guess, please try again")
+            print(random_number)
+    except ValueError: # Handles  cases where input is not a number
+        print("Invalid input! Please enter a number between 1 to 10.")
