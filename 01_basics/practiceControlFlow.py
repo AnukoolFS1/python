@@ -17,21 +17,38 @@
 
 
 #Task3: Guess the number 
+# import random
 
-import random
+# runLoop = True
 
-runLoop = True
+# while runLoop:
+#     try:
+#         user_input = int(input("Guess a number: "))
+#         random_number = random.randint(1,10)
+#         if user_input == random_number:
+#             print("Congrats your guess was correct")
+#             runLoop = False
+#         else:
+#             print("Incorrect guess, please try again")
+#             print(random_number)
 
-while runLoop:
+#     except ValueError: # Handles  cases where input is not a number
+#         print("Invalid input! Please enter a number between 1 to 10.")
+
+# Task 4: Multiplication Table
+
+input_success = False
+number = 0 
+
+while not(input_success):
     try:
-        user_input = int(input("Guess a number: "))
-        random_number = random.randint(1,10)
+        number = int(input("Enter a number for its table upto 10: "))
+        input_success = True
+    except ValueError:
+        print("Oop! you entered a wrong value please enter a number")
 
-        if user_input == random_number:
-            print("Congrats your guess was correct")
-            runLoop = False
-        else:
-            print("Incorrect guess, please try again")
-            print(random_number)
-    except ValueError: # Handles  cases where input is not a number
-        print("Invalid input! Please enter a number between 1 to 10.")
+table = 1
+
+while table <= 10:
+    print(f"{number} x {table} = {number * table}")
+    table += 1
