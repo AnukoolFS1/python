@@ -21,7 +21,7 @@
 
 # greet()
 # greet("Anukool")
-
+##############
 # Keyword arguments
 # def introduce(name, age):
 #     print(f"My name is {name}, and I am {age} years old")
@@ -29,3 +29,7 @@
 
 ############################
 # Variable length arguments
+
+def add_number(*args):
+    print(args)
+    
