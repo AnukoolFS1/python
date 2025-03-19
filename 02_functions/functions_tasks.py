@@ -1,35 +1,36 @@
 # print(sum([5,7],5))
+import math
 
 
-
-def sum(a, b):
+def add_numbers(a, b):
     return a + b
 
-print(sum(2,5))
 
+print(add_numbers(2, 5))
 
 
 def check_prime(number):
     is_prime = True
-    for i in range(2,number):
+    for i in range(2, int(math.sqrt(number)) + 1):
         if number % i == 0:
-            is_prime = False
-    
-    if is_prime:
-        return "The given number is a prime number"
-    else:
-        return "The given number is not a prime number"
-    
+            return "The given number is not a prime number"
+
+    return "The given number is  a prime number"
+
+
 print(check_prime(int(input("Enter a number: "))))
 
 
 def Maximum(list):
-    biggest_number = 0
-    for i in range(0, len(list)):
-        print(list[i])
-        if list[i] > biggest_number:
-            biggest_number = list[i]
-    
+    if not list:
+        return "the list is empty"
+
+    biggest_number = list[0]
+    for num in range(list):
+        if num > biggest_number:
+            biggest_number = num
+
     return biggest_number
 
-print(Maximum([4,3,5,2,1,4,0]))
+
+print(Maximum([4, 3, 5, 2, 1, 4, 0]))
