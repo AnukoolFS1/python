@@ -1,14 +1,14 @@
 # print(sum([5,7],5))
 import math
 
-
+# add two numbers
 def add_numbers(a, b):
     return a + b
 
 
 print(add_numbers(2, 5))
 
-
+# check if a number is prime
 def check_prime(number):
     is_prime = True
     for i in range(2, int(math.sqrt(number)) + 1):
@@ -20,7 +20,7 @@ def check_prime(number):
 
 print(check_prime(int(input("Enter a number: "))))
 
-
+# find maximum number in a list
 def Maximum(list):
     if not list:
         return "the list is empty"
