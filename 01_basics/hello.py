@@ -25,6 +25,7 @@ print(f"hello my name is {name} and I am {age} years old") # use f followed by d
 a = int("25")
 b = float("25.5")
 c = bool("true")
+s = str(20)
 
 
 # Multiple Inputs in one line
