@@ -31,3 +31,11 @@ for char in 'Python':
 # h
 # o
 # n
+
+
+# length and membership
+print(len(s)) # length of the string
+
+print('P' in s) # member of s
+print('Z' not in s) # not member of s
+    
