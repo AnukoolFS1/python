@@ -11,6 +11,7 @@ is_developer = True
 25.5 # Float
 True; False # boolean
 [1,2,3] # List (array in js)
+(1,2,3,4) # tuple``
 {"name":"Anukool", "age": 25} # Dictionary (Object in js)
 
 # Input Output
