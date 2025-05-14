@@ -6,20 +6,22 @@ age = 25
 is_developer = True
 
 # Data Types
-"Anukool" # string
-25 # number
-25.5 # Float
-True; False # boolean
-[1,2,3] # List (array in js)
-(1,2,3,4) # tuple``
-{"name":"Anukool", "age": 25} # Dictionary (Object in js)
+"Anukool"  # string
+25  # number
+25.5  # Float
+True
+False  # boolean
+[1, 2, 3]  # List (array in js)
+(1, 2, 3, 4)  # tuple``
+{"name": "Anukool", "age": 25}  # Dictionary (Object in js)
 
 # Input Output
 # sName = input("What's your name? ")
 # print("Hello ",sName)
 
-# f-string (f"") similar to template literals in js
-print(f"hello my name is {name} and I am {age} years old") # use f followed by double quotes
+# f-string (Format String)(f"") similar to template literals in js
+# use f followed by double quotes
+print(f"hello my name is {name} and I am {age} years old")
 
 # Type Casting / Type Conversion
 a = int("25")
