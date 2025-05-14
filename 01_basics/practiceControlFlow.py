@@ -16,7 +16,7 @@
 # print(result)
 
 
-#Task3: Guess the number 
+# Task3: Guess the number
 # import random
 
 # runLoop = True
@@ -38,7 +38,7 @@
 # Task 4: Multiplication Table
 
 # input_success = False
-# number = 0 
+# number = 0
 
 # while not(input_success):
 #     try:
@@ -63,3 +63,22 @@
 
 # print(reveredString)
 
+# practice control flow - Loops
+
+# print even number upto 10
+for x in range(1, 11, -2):
+    print(x)
+
+# print each character in string "Python";
+
+for x in "Python":
+    print(x)
+
+# Find the sum of first natural numbers
+num = 1
+ans = 0
+while num <= 5:
+    ans += num
+    num += 1
+
+print(ans)
