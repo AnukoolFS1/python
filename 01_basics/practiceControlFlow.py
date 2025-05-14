@@ -66,19 +66,47 @@
 # practice control flow - Loops
 
 # print even number upto 10
-for x in range(1, 11, -2):
-    print(x)
+# for x in range(1, 11, -2):
+#     print(x)
 
-# print each character in string "Python";
+# # print each character in string "Python";
 
-for x in "Python":
-    print(x)
+# for x in "Python":
+#     print(x)
 
-# Find the sum of first natural numbers
-num = 1
-ans = 0
-while num <= 5:
-    ans += num
-    num += 1
+# # Find the sum of first natural numbers
+# num = 1
+# ans = 0
+# while num <= 5:
+#     ans += num
+#     num += 1
 
-print(ans)
+# print(ans)
+
+# practicing loop with break, continue and else
+
+# break
+for i in range(1, 10):
+    if i == 6:
+        break
+    print(i)
+
+# continue
+for i in range(1, 11):
+    if i == 3:
+        continue
+    print(i)
+
+# else
+for i in range(1,11):
+    print(i)
+else:
+    print('Loop has been finished successfully')
+
+# breaking the else
+for i in range(1,11):
+    if i == 3:
+        break
+    print(i)
+else:
+    print("Loop has been finished successfully")
