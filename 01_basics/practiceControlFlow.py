@@ -66,7 +66,7 @@
 # practice control flow - Loops
 
 # print even number upto 10
-# for x in range(1, 11, -2):
+# for x in range(1, 11, 2):
 #     print(x)
 
 # # print each character in string "Python";

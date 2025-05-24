@@ -13,7 +13,7 @@ else:
 
 
 # loops 
-for i in range(5):
+for i in range(5): # range(5) generates a sequence of number from 0 to 5
     print(i) # will print from 0 to 4
 
 # print(range(4))
